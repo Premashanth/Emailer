@@ -19,7 +19,7 @@ passport.use(
 		{
 			clientID: keys.googleClientID,
 			clientSecret: keys.googleclientSecret,
-			callbackURL: '/auth/google/callback',
+			callbackURL: 'https://ancient-scrubland-49023.herokuapp.com/auth/google/callback',
 			proxy: true,
 		},
 		(accessToken, refreshToken, profile, done) => {
